@@ -1,0 +1,54 @@
+{
+  "video_source": "/media/harolpc/SSD01/videos/Atlantic City Boardwalk Live.mp4",
+  "crop_img_path":"/home/harolpc/workspace/yolov8_dev/test/images",
+  "line_zones": [
+    
+    {
+      "name": "NORTH",
+      "start": [901, 418],
+      "end": [1429, 454]
+    },
+    {
+      "name": "WEST",
+      "start": [175, 766],
+      "end": [643, 526]
+    },
+    {
+      "name": "EAST",
+      "start": [1767, 230],
+      "end": [1539, 510]
+    },
+    {
+      "name": "BIKES_ON_RD",
+      "start":[267, 198], 
+      "end": [763, 482]
+    }
+  ],
+  "polygon_zones": [
+    {
+      "id": "zona1",
+      "coordinates": [
+[1417, 478],[913, 438],[885, 626],[1409, 650]
+],
+      "color": "#0942AE",
+      "crop_detections": true
+    },{
+      "id": "zona2",
+      "coordinates": [
+[445, 554],[269, 630],[517, 830],[685, 714]
+],
+      "color": "#0942AE",
+      "crop_detections": true
+    },{
+      "id": "zona3",
+      "coordinates": [
+[173, 322],[469, 490],[109, 562],[5, 398]
+],
+      "color": "#0942AE",
+      "crop_detections": true
+    }
+  ],
+  "show_trajectories": true
+}
+
+
